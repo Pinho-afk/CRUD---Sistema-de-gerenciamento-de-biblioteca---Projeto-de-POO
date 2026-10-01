@@ -6,6 +6,6 @@ public class Professor extends Pessoa {
 
     @Override
     public String toString() {
-        return "Professor [Nome=" + nome + ", Registro=" + registro + "]";
+        return "Professor [Nome=" + getNome() + ", Registro=" + getRegistro() + "]";
     }
 }

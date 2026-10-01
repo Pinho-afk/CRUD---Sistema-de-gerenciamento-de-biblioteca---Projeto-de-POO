@@ -8,6 +8,6 @@ public class Revista extends ItemAcervo {
 
     @Override
     public String toString() {
-        return "Revista [Título=" + titulo + ", Edição=" + edicao + ", Disponível=" + disponivel + "]";
+        return "Revista [Título=" + getTitulo() + ", Edição=" + edicao + ", Disponível=" + isDisponivel() + "]";
     }
 }

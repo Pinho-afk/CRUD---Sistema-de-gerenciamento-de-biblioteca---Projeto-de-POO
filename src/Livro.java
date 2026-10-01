@@ -10,6 +10,6 @@ public class Livro extends ItemAcervo {
 
     @Override
     public String toString() {
-        return "Livro [Título=" + titulo + ", Autor=" + autor + ", Disponível=" + disponivel + "]";
+        return "Livro [Título=" + getTitulo() + ", Autor=" + autor + ", Disponível=" + isDisponivel() + "]";
     }
 }
